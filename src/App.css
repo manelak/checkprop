@@ -1,5 +1,19 @@
+
 .App {
   text-align: center;
+  
+}
+.App.imm{
+  top:100px;
+  width:500px;
+  height:300px;
+  margin:40px 0;
+  box-shadow:-30px 30px 20px rgba(0,0,0.3);
+  justify-content:center;
+  position:relative;
+  flex-direction:column;
+  background:black;
+
 }
 
 .App-logo {
@@ -14,14 +28,18 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-image: url('java.jpg');
   min-height: 100vh;
-  display: flex;
+  display:flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color:white;
+  box-shadow: black;
+  
+ 
+
 }
 
 .App-link {
@@ -35,4 +53,12 @@
   to {
     transform: rotate(360deg);
   }
+}
+h1{
+  color: orange;
+  text-align: left;
+}
+footer{
+  font-style: oblique;
+  font-weight: bold;
 }
